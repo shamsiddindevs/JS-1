@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 250px;
+  padding: 10px;
+  border-radius: 20px;
+ background-color: white;
+ flex-wrap: wrap;
+}
+
+ img{
+  padding: 20px;
+   background-color: rgba(255, 167, 167, 0.733);
+    border-radius: 50%;
+ }
